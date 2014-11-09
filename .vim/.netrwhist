@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/smat/.vim'
+let g:netrw_dirhist_2='/home/smat/.vim/bundle'
+let g:netrw_dirhist_3='/home/smat/.vim/bundle/nerdtree/autoload/nerdtree'
+let g:netrw_dirhist_4='/home/smat/.vim/bundle/nerdtree'
+let g:netrw_dirhist_5='/home/smat/.vim/bundle/nerdtree/nerdtree_plugin'
