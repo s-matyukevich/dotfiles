@@ -12,6 +12,9 @@ Plugin 'rjohnsondev/vim-compiler-go'
 Plugin 'dgryski/vim-godef'
 Plugin 'vim-jp/vim-go-extra'
 
+Plugin 'tpope/vim-rails'
+Plugin 'vim-ruby/vim-ruby'
+
 Plugin 'scrooloose/nerdtree'
 
 call vundle#end()            
