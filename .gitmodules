@@ -27,4 +27,4 @@
 	url = http://github.com/vim-ruby/vim-ruby.git
 [submodule "nerdtree"]
 	path = .vim/bundle/nerdtree
-	url = http://github.com/vim-ruby/scrooloose/nerdtree.git
+	url = http://github.com/scrooloose/nerdtree.git
