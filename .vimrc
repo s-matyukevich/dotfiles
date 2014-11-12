@@ -30,3 +30,8 @@ augroup resCur
 augroup END
 
 map <F3> :NERDTreeToggle<CR>
+map <F8> :TagbarToggle<CR>
+map <F4> :execute "grep! -rF '" . expand("<cword>") . "' ." <Bar> cw<CR>
+map <c-f> :let @/.='\\|\<'.expand("<cword>").'\>'<CR>
+map <c-p> :ccl<CR>
+
