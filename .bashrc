@@ -11,4 +11,4 @@ alias vi="vim"
 PS1='[\u@\h \W]\$ '
 
 export GOPATH=~/work
-export PATH=$GOPATH/bin:$PATH
+export PATH=~/bin:$GOPATH/bin:$PATH
