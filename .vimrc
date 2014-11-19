@@ -5,17 +5,20 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
-Plugin 'fatih/vim-go'
 Plugin 'scrooloose/syntastic'
 Plugin 'majutsushi/tagbar'
+Plugin 'scrooloose/nerdtree'
+Plugin 'kana/vim-textobj-user'
+
+Plugin 'fatih/vim-go'
 Plugin 'rjohnsondev/vim-compiler-go'
 Plugin 'dgryski/vim-godef'
 Plugin 'vim-jp/vim-go-extra'
 
 Plugin 'tpope/vim-rails'
 Plugin 'vim-ruby/vim-ruby'
+Plugin 'nelstrom/vim-textobj-rubyblock' 
 
-Plugin 'scrooloose/nerdtree'
 
 call vundle#end()            
 filetype plugin indent on    
@@ -23,6 +26,8 @@ set wrapscan
 syntax on
 set number
 "set spell
+
+runtime macros/matchit.vim
 
 augroup resCur
   autocmd!

@@ -28,3 +28,9 @@
 [submodule "nerdtree"]
 	path = .vim/bundle/nerdtree
 	url = http://github.com/scrooloose/nerdtree.git
+[submodule "vim-textobj-use"]
+	path = .vim/bundle/vim-textobj-use
+	url = http://github.com/skana/vim-textobj-use.git
+[submodule "vim-textobj-rubybloc"]
+	path = .vim/bundle/vim-textobj-rubybloc
+	url = http://github.com/snelstrom/vim-textobj-rubybloc.git
