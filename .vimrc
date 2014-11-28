@@ -9,6 +9,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'majutsushi/tagbar'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kana/vim-textobj-user'
+Plugin 'bkad/CamelCaseMotion'
 
 Plugin 'fatih/vim-go'
 Plugin 'rjohnsondev/vim-compiler-go'

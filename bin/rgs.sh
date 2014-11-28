@@ -1,3 +1,3 @@
 #!/bin/bash 
 
-starscope . $(bundle list --paths)  -e cscope
+starscope . $(bundle list --paths) -e cscope
