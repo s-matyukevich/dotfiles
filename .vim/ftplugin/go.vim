@@ -1,2 +1,2 @@
-let g:godef_split=0
-let g:godef_same_file_in_same_window=1
+let g:go_fmt_fail_silently=0
+let g:go_fmt_autosave=1

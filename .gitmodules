@@ -10,15 +10,6 @@
 [submodule "tagbar"]
 	path = .vim/bundle/tagbar
 	url = http://github.com/majutsushi/tagbar.git
-[submodule "vim-compiler-go"]
-	path = .vim/bundle/vim-compiler-go
-	url = http://github.com/rjohnsondev/vim-compiler-go.git
-[submodule "vim-godef"]
-	path = .vim/bundle/vim-godef
-	url = http://github.com/dgryski/vim-godef.git
-[submodule "vim-go-extra"]
-	path = .vim/bundle/vim-go-extra
-	url = http://github.com/vim-jp/vim-go-extra.git
 [submodule "vim-rails"]
 	path = .vim/bundle/vim-rails
 	url = http://github.com/tpope/vim-rails.git
