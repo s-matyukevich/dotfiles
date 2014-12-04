@@ -23,6 +23,7 @@ filetype plugin indent on
 set wrapscan
 syntax on
 set number
+let mapleader = ";"
 "set spell
 
 runtime macros/matchit.vim
