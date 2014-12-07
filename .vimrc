@@ -5,24 +5,28 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
-Plugin 'fatih/vim-go'
 Plugin 'scrooloose/syntastic'
 Plugin 'majutsushi/tagbar'
-Plugin 'rjohnsondev/vim-compiler-go'
-Plugin 'dgryski/vim-godef'
-Plugin 'vim-jp/vim-go-extra'
+Plugin 'scrooloose/nerdtree'
+Plugin 'kana/vim-textobj-user'
+Plugin 'bkad/CamelCaseMotion'
+
+Plugin 'fatih/vim-go'
 
 Plugin 'tpope/vim-rails'
 Plugin 'vim-ruby/vim-ruby'
+Plugin 'nelstrom/vim-textobj-rubyblock' 
 
-Plugin 'scrooloose/nerdtree'
 
 call vundle#end()            
 filetype plugin indent on    
 set wrapscan
 syntax on
 set number
+let mapleader = ";"
 "set spell
+
+runtime macros/matchit.vim
 
 augroup resCur
   autocmd!
@@ -32,6 +36,6 @@ augroup END
 map <F3> :NERDTreeToggle<CR>
 map <F8> :TagbarToggle<CR>
 map <F4> :execute "grep! -rF '" . expand("<cword>") . "' ." <Bar> cw<CR>
-map <c-f> :let @/.='\\|\<'.expand("<cword>").'\>'<CR>
 map <c-p> :ccl<CR>
+nmap <c-j> o<Esc>
 
