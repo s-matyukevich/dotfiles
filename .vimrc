@@ -22,7 +22,7 @@ filetype plugin indent on
 set wrapscan
 syntax on
 set number
-set spell
+"set spell
 
 augroup resCur
   autocmd!
