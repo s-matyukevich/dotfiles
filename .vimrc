@@ -9,6 +9,7 @@ Plugin 'majutsushi/tagbar'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kana/vim-textobj-user'
 Plugin 'bkad/CamelCaseMotion'
+Plugin 'kien/ctrlp.vim'
 
 Plugin 'fatih/vim-go'
 
@@ -35,6 +36,6 @@ augroup END
 map <F3> :NERDTreeToggle<CR>
 map <F8> :TagbarToggle<CR>
 map <F4> :execute "grep! -rwF '" . expand("<cword>") . "' ." <Bar> cw<CR>
-map <c-p> :ccl<CR>
+map <c-l> :ccl<CR>
 nmap <c-j> o<Esc>
 
