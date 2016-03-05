@@ -17,6 +17,8 @@ Plugin 'tpope/vim-rails'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'nelstrom/vim-textobj-rubyblock' 
 
+Plugin 'vim-scripts/c.vim'
+
 
 call vundle#end()            
 filetype plugin indent on    
